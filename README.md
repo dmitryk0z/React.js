@@ -1,3 +1,3 @@
-## Welcome to My React Repository!
+## Welcome to My React.js Repository!
 
-Here you will find my React projects (completed or in progress).
+Here you will find my React.js projects (completed or in progress).
