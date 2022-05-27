@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Inter, sans-serif;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 30px 25px;
+    background-color: #21222A;
+    height: 90px;
+}
+
+.header--title, .header--subtitle {
+    margin: 0;
+}
+
+.header--title {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.header--subtitle {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.header--logo {
+    height: 30px;
+    margin-right: 7px;
+}
+
+/* Main Body */
+
+.main {
+    padding: 50px 25px;
+    background-color: #282D35;
+    background-image: url('../images/react-icon.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.main--title {
+    font-weight: 700;
+}
+
+.main--list {
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 450px;
+}
+
+.main--list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}

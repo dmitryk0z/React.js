@@ -1,0 +1,62 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 740px;
+}
+
+.header {
+    height: 100px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-icon {
+    width: 50px;
+}
+
+.header-title {
+    color: white;
+    display: inline;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.journey {
+    display: flex;
+    margin: auto;
+    width: 700px;
+    padding: 60px 0px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.journey-image {
+    object-fit: cover;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.journey--icon {
+    width: 10px;
+    margin-right: 5px;
+}
+
+.journey--country {
+    letter-spacing: 3px;
+}
+
+.journey-info {
+    margin: 20px;
+}
+
+.journey--gmap {
+    margin-left: 15px;
+    color: grey;
+}
