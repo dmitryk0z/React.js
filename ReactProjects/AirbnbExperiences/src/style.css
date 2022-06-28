@@ -3,8 +3,9 @@
 }
 
 body {
-    margin: 0;
+    margin: auto;
     font-family: 'Poppins', sans-serif;
+    width: 500px;
 }
 
 nav {
